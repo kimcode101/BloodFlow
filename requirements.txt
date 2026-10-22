@@ -1,0 +1,2 @@
+# ZoneInfo uses the OS timezone database where available; this covers Windows.
+tzdata>=2025.2

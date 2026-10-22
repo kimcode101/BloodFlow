@@ -1,0 +1,39 @@
+{
+  "purpose": "Candidate facilities for review only, never inferred patient destinations or stock movements.",
+  "demo_zone_candidates": {
+    "paris_northeast": [
+      "H1",
+      "H4"
+    ],
+    "paris_centre_east": [
+      "H1",
+      "H2"
+    ],
+    "paris_west": [
+      "H3",
+      "B2"
+    ],
+    "paris_south": [
+      "H2",
+      "H3"
+    ],
+    "paris_unspecified": [
+      "H1",
+      "H2",
+      "H3",
+      "H4"
+    ]
+  },
+  "mapping_status": "coarse declared demo assumption; not validated catchment geography",
+  "fictional_entities": {
+    "Hôpital-Démo-01": {
+      "zone": "paris_northeast",
+      "site_id": null
+    },
+    "Centre de collecte Démo-Nord": {
+      "zone": "paris_northeast",
+      "site_id": null
+    }
+  },
+  "rule": "Fictional institutions are not silently equated to a real-named site. Unknown locations remain unknown without explicit entity evidence."
+}

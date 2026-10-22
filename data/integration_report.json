@@ -1,0 +1,83 @@
+{
+  "status": "PASS",
+  "schema_version": "1.0",
+  "snapshot_date": "2026-10-22",
+  "counts": {
+    "sites": 7,
+    "units": 1538,
+    "available_units": 777,
+    "used_units": 761,
+    "transfers": 981,
+    "daily_usage": 224,
+    "daily_usage_explicit_zero_rows_added": 61,
+    "planned_activities": 247,
+    "travel_pairs": 42,
+    "routes_without_eta": 12,
+    "social_posts": 36
+  },
+  "reconciliation": {
+    "daily_usage_equals_used_units": true,
+    "transfer_chains_consistent": true,
+    "source_unit_id_collisions_with_legacy": [
+      "2394",
+      "2977",
+      "2979"
+    ],
+    "legacy_available_units_excluded_from_active_stock": 662
+  },
+  "explicit_limits": [
+    "External site X1 has no travel-time estimate; unavailable routes cannot be scheduled.",
+    "Partial-day 22 October usage is excluded from the baseline.",
+    "Historical coverage is only the supplied window; no missing earlier days are invented.",
+    "The original social fixture and recorded OpenAI baseline remain unchanged. No API call was made for the new forward scenario.",
+    "No patient-level case dataset, live inventory feed, or validated social-to-demand conversion was supplied.",
+    "Source clinical metadata, demand thresholds, shelf life and travel times are demo assumptions, not operational facts."
+  ],
+  "sources": [
+    {
+      "path": "data/raw/legacy_stock/blood_storage.csv",
+      "bytes": 242984,
+      "sha256": "f9cf440151598fb0aa5f60d268ff7635c97bc701795292296b0f795fe51cc201"
+    },
+    {
+      "path": "data/raw/original_scripts/load_blood_data.py",
+      "bytes": 4102,
+      "sha256": "0745e939991121b186bcfcbdf20d2fc731ae449606bda44c43234ee76e409804"
+    },
+    {
+      "path": "data/raw/original_scripts/simulate_live.py",
+      "bytes": 4094,
+      "sha256": "20386f4748c6fb0f3595eaef907aece1f6f84f92a0b19c92ab8919b28eef6cab"
+    },
+    {
+      "path": "data/raw/team_bundle/daily_usage.csv",
+      "bytes": 4151,
+      "sha256": "af9a47cd3ef1b43df176ff7b69c3f63b60445159d33a99462db94d1412b1482c"
+    },
+    {
+      "path": "data/raw/team_bundle/planned_activity.csv",
+      "bytes": 12196,
+      "sha256": "9cac4977b42a9294964c02da1e643f99981c15eb3302462c5d70417cb362e7fb"
+    },
+    {
+      "path": "data/raw/team_bundle/sites.csv",
+      "bytes": 820,
+      "sha256": "49e3997165422c0ea39377ba9015ce94ad337ec7ade92db19d079902b39f58cc"
+    },
+    {
+      "path": "data/raw/team_bundle/transfers.csv",
+      "bytes": 39349,
+      "sha256": "83a6e719d53533b88053b7e16e86737b0d04b012aef50ca13aa1c8f6f597c350"
+    },
+    {
+      "path": "data/raw/team_bundle/travel_times.csv",
+      "bytes": 568,
+      "sha256": "afb2eec97bd6f237d42eeb2ef2930b1db6c1b64df918e867cdfc9cb6c1ececd4"
+    },
+    {
+      "path": "data/raw/team_bundle/units.csv",
+      "bytes": 79356,
+      "sha256": "98c09a3727b3bac5a9266c092a31df8956c388658cad391803c9c96e8ebb5834"
+    }
+  ]
+}

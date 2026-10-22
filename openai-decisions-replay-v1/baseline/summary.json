@@ -1,0 +1,5 @@
+{
+  "label": "OpenAI Decisions chronological replay",
+  "model": "gpt-6-luna",
+  "description": "Exploratory agreement with assistant-authored, unreviewed labels; not real-world or clinical accuracy."
+}

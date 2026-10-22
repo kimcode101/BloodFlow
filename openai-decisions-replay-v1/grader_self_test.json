@@ -1,0 +1,9 @@
+{
+  "offline_only": true,
+  "oracle_flag_agreement": "36/36",
+  "constant_IGNORE_agreement": "16/36",
+  "oracle_event_pair_precision": 1.0,
+  "oracle_event_pair_recall": 1.0,
+  "missing_output": "rejected",
+  "meaning": "Grader wiring checks, not model performance"
+}

@@ -1,0 +1,805 @@
+[
+  {
+    "report_id": "SOC-001",
+    "expected_flag": "IGNORE",
+    "actual_flag": "IGNORE",
+    "flag_agrees": true,
+    "expected_event_id": "EV-NATIONAL",
+    "actual_event_id": "MODEL-EV-001",
+    "field_disagreements": {
+      "evidence_basis": {
+        "expected": "attributed_report",
+        "actual": "rumour_or_speculation"
+      }
+    },
+    "expected_contribution": "new_event",
+    "actual_contribution": "new_event",
+    "expected_event_action": "MONITOR",
+    "actual_event_action": "MONITOR",
+    "expected_event_status": "planned",
+    "actual_event_status": "unverified"
+  },
+  {
+    "report_id": "SOC-002",
+    "expected_flag": "MONITOR",
+    "actual_flag": "MONITOR",
+    "flag_agrees": true,
+    "expected_event_id": "EV-REPUBLIQUE",
+    "actual_event_id": "MODEL-EV-002",
+    "field_disagreements": {},
+    "expected_contribution": "new_event",
+    "actual_contribution": "new_event",
+    "expected_event_action": "MONITOR",
+    "actual_event_action": "MONITOR",
+    "expected_event_status": "planned",
+    "actual_event_status": "planned"
+  },
+  {
+    "report_id": "SOC-003",
+    "expected_flag": "IGNORE",
+    "actual_flag": "IGNORE",
+    "flag_agrees": true,
+    "expected_event_id": "EV-REPUBLIQUE",
+    "actual_event_id": "MODEL-EV-002",
+    "field_disagreements": {
+      "reported_impact_level": {
+        "expected": 1,
+        "actual": 0
+      },
+      "evidence_basis": {
+        "expected": "attributed_report",
+        "actual": "unclear"
+      },
+      "update_type": {
+        "expected": "initial_report",
+        "actual": "update"
+      }
+    },
+    "expected_contribution": "duplicate",
+    "actual_contribution": "duplicate",
+    "expected_event_action": "MONITOR",
+    "actual_event_action": "MONITOR",
+    "expected_event_status": "planned",
+    "actual_event_status": "planned"
+  },
+  {
+    "report_id": "SOC-004",
+    "expected_flag": "IGNORE",
+    "actual_flag": "IGNORE",
+    "flag_agrees": true,
+    "expected_event_id": null,
+    "actual_event_id": null,
+    "field_disagreements": {
+      "update_type": {
+        "expected": "initial_report",
+        "actual": "correction_or_denial"
+      }
+    },
+    "expected_contribution": "unrelated",
+    "actual_contribution": "unrelated",
+    "expected_event_action": null,
+    "actual_event_action": "IGNORE",
+    "expected_event_status": null,
+    "actual_event_status": "normal"
+  },
+  {
+    "report_id": "SOC-005",
+    "expected_flag": "IGNORE",
+    "actual_flag": "IGNORE",
+    "flag_agrees": true,
+    "expected_event_id": "EV-LYON",
+    "actual_event_id": "MODEL-EV-003",
+    "field_disagreements": {
+      "evidence_basis": {
+        "expected": "attributed_report",
+        "actual": "rumour_or_speculation"
+      }
+    },
+    "expected_contribution": "new_event",
+    "actual_contribution": "new_event",
+    "expected_event_action": "MONITOR",
+    "actual_event_action": "MONITOR",
+    "expected_event_status": "planned",
+    "actual_event_status": "planned"
+  },
+  {
+    "report_id": "SOC-006",
+    "expected_flag": "IGNORE",
+    "actual_flag": "IGNORE",
+    "flag_agrees": true,
+    "expected_event_id": "EV-NANTES",
+    "actual_event_id": "MODEL-EV-004",
+    "field_disagreements": {
+      "impact_pathway": {
+        "expected": "potential_demand",
+        "actual": "none"
+      },
+      "evidence_basis": {
+        "expected": "direct_observation",
+        "actual": "attributed_report"
+      }
+    },
+    "expected_contribution": "new_event",
+    "actual_contribution": "new_event",
+    "expected_event_action": "MONITOR",
+    "actual_event_action": "IGNORE",
+    "expected_event_status": "planned",
+    "actual_event_status": "planned"
+  },
+  {
+    "report_id": "SOC-007",
+    "expected_flag": "IGNORE",
+    "actual_flag": "IGNORE",
+    "flag_agrees": true,
+    "expected_event_id": "EV-NATIONAL",
+    "actual_event_id": "MODEL-EV-005",
+    "field_disagreements": {
+      "zone": {
+        "expected": "france_unspecified",
+        "actual": "unknown"
+      },
+      "impact_pathway": {
+        "expected": "potential_demand",
+        "actual": "none"
+      },
+      "reported_impact_level": {
+        "expected": 1,
+        "actual": 0
+      },
+      "update_type": {
+        "expected": "initial_report",
+        "actual": "unclear"
+      }
+    },
+    "expected_contribution": "adds_information",
+    "actual_contribution": "new_event",
+    "expected_event_action": "MONITOR",
+    "actual_event_action": "IGNORE",
+    "expected_event_status": "planned",
+    "actual_event_status": "normal"
+  },
+  {
+    "report_id": "SOC-008",
+    "expected_flag": "MONITOR",
+    "actual_flag": "MONITOR",
+    "flag_agrees": true,
+    "expected_event_id": "EV-CHAPELLE",
+    "actual_event_id": "MODEL-EV-006",
+    "field_disagreements": {
+      "impact_pathway": {
+        "expected": "potential_demand",
+        "actual": "none"
+      },
+      "reported_impact_level": {
+        "expected": 1,
+        "actual": 0
+      },
+      "evidence_basis": {
+        "expected": "direct_observation",
+        "actual": "attributed_report"
+      }
+    },
+    "expected_contribution": "new_event",
+    "actual_contribution": "new_event",
+    "expected_event_action": "MONITOR",
+    "actual_event_action": "IGNORE",
+    "expected_event_status": "planned",
+    "actual_event_status": "planned"
+  },
+  {
+    "report_id": "SOC-009",
+    "expected_flag": "MONITOR",
+    "actual_flag": "MONITOR",
+    "flag_agrees": true,
+    "expected_event_id": "EV-DONOR-ACCESS",
+    "actual_event_id": null,
+    "field_disagreements": {
+      "zone": {
+        "expected": "paris_northeast",
+        "actual": "unknown"
+      }
+    },
+    "expected_contribution": "new_event",
+    "actual_contribution": "unrelated",
+    "expected_event_action": "MONITOR",
+    "actual_event_action": "IGNORE",
+    "expected_event_status": "normal",
+    "actual_event_status": "normal"
+  },
+  {
+    "report_id": "SOC-010",
+    "expected_flag": "URGENT_REVIEW",
+    "actual_flag": "REVIEW",
+    "flag_agrees": false,
+    "expected_event_id": "EV-FALSE-APPEAL",
+    "actual_event_id": "MODEL-EV-007",
+    "field_disagreements": {
+      "timing": {
+        "expected": "ongoing",
+        "actual": "unknown"
+      },
+      "evidence_basis": {
+        "expected": "rumour_or_speculation",
+        "actual": "attributed_report"
+      }
+    },
+    "expected_contribution": "new_event",
+    "actual_contribution": "new_event",
+    "expected_event_action": "URGENT_REVIEW",
+    "actual_event_action": "MONITOR",
+    "expected_event_status": "unverified",
+    "actual_event_status": "unverified"
+  },
+  {
+    "report_id": "SOC-011",
+    "expected_flag": "REVIEW",
+    "actual_flag": "REVIEW",
+    "flag_agrees": true,
+    "expected_event_id": "EV-FALSE-APPEAL",
+    "actual_event_id": "MODEL-EV-007",
+    "field_disagreements": {
+      "zone": {
+        "expected": "paris_northeast",
+        "actual": "unknown"
+      },
+      "timing": {
+        "expected": "ongoing",
+        "actual": "unknown"
+      },
+      "impact_pathway": {
+        "expected": "potential_demand",
+        "actual": "none"
+      }
+    },
+    "expected_contribution": "contradicts",
+    "actual_contribution": "contradicts",
+    "expected_event_action": "REVIEW",
+    "actual_event_action": "REVIEW",
+    "expected_event_status": "disputed",
+    "actual_event_status": "disputed"
+  },
+  {
+    "report_id": "SOC-012",
+    "expected_flag": "IGNORE",
+    "actual_flag": "IGNORE",
+    "flag_agrees": true,
+    "expected_event_id": null,
+    "actual_event_id": null,
+    "field_disagreements": {
+      "timing": {
+        "expected": "ongoing",
+        "actual": "past"
+      },
+      "update_type": {
+        "expected": "initial_report",
+        "actual": "unclear"
+      }
+    },
+    "expected_contribution": "unrelated",
+    "actual_contribution": "unrelated",
+    "expected_event_action": null,
+    "actual_event_action": "IGNORE",
+    "expected_event_status": null,
+    "actual_event_status": "normal"
+  },
+  {
+    "report_id": "SOC-013",
+    "expected_flag": "MONITOR",
+    "actual_flag": "MONITOR",
+    "flag_agrees": true,
+    "expected_event_id": "EV-OPERA",
+    "actual_event_id": "MODEL-EV-008",
+    "field_disagreements": {},
+    "expected_contribution": "new_event",
+    "actual_contribution": "new_event",
+    "expected_event_action": "MONITOR",
+    "actual_event_action": "MONITOR",
+    "expected_event_status": "active",
+    "actual_event_status": "unverified"
+  },
+  {
+    "report_id": "SOC-014",
+    "expected_flag": "MONITOR",
+    "actual_flag": "MONITOR",
+    "flag_agrees": true,
+    "expected_event_id": "EV-TRANSIT",
+    "actual_event_id": "MODEL-EV-009",
+    "field_disagreements": {
+      "reported_impact_level": {
+        "expected": 1,
+        "actual": 2
+      }
+    },
+    "expected_contribution": "new_event",
+    "actual_contribution": "new_event",
+    "expected_event_action": "MONITOR",
+    "actual_event_action": "MONITOR",
+    "expected_event_status": "active",
+    "actual_event_status": "normal"
+  },
+  {
+    "report_id": "SOC-015",
+    "expected_flag": "IGNORE",
+    "actual_flag": "IGNORE",
+    "flag_agrees": true,
+    "expected_event_id": "EV-LYON",
+    "actual_event_id": "MODEL-EV-010",
+    "field_disagreements": {},
+    "expected_contribution": "adds_information",
+    "actual_contribution": "new_event",
+    "expected_event_action": "URGENT_REVIEW",
+    "actual_event_action": "URGENT_REVIEW",
+    "expected_event_status": "unverified",
+    "actual_event_status": "unverified"
+  },
+  {
+    "report_id": "SOC-016",
+    "expected_flag": "MONITOR",
+    "actual_flag": "MONITOR",
+    "flag_agrees": true,
+    "expected_event_id": "EV-REPUBLIQUE",
+    "actual_event_id": "MODEL-EV-002",
+    "field_disagreements": {
+      "update_type": {
+        "expected": "update",
+        "actual": "initial_report"
+      }
+    },
+    "expected_contribution": "adds_information",
+    "actual_contribution": "adds_information",
+    "expected_event_action": "MONITOR",
+    "actual_event_action": "MONITOR",
+    "expected_event_status": "active",
+    "actual_event_status": "active"
+  },
+  {
+    "report_id": "SOC-017",
+    "expected_flag": "URGENT_REVIEW",
+    "actual_flag": "URGENT_REVIEW",
+    "flag_agrees": true,
+    "expected_event_id": "EV-REPUBLIQUE",
+    "actual_event_id": "MODEL-EV-002",
+    "field_disagreements": {
+      "update_type": {
+        "expected": "update",
+        "actual": "initial_report"
+      }
+    },
+    "expected_contribution": "adds_information",
+    "actual_contribution": "adds_information",
+    "expected_event_action": "URGENT_REVIEW",
+    "actual_event_action": "MONITOR",
+    "expected_event_status": "unverified",
+    "actual_event_status": "active"
+  },
+  {
+    "report_id": "SOC-018",
+    "expected_flag": "IGNORE",
+    "actual_flag": "URGENT_REVIEW",
+    "flag_agrees": false,
+    "expected_event_id": "EV-REPUBLIQUE",
+    "actual_event_id": "MODEL-EV-002",
+    "field_disagreements": {
+      "evidence_basis": {
+        "expected": "attributed_report",
+        "actual": "direct_observation"
+      }
+    },
+    "expected_contribution": "duplicate",
+    "actual_contribution": "duplicate",
+    "expected_event_action": "URGENT_REVIEW",
+    "actual_event_action": "URGENT_REVIEW",
+    "expected_event_status": "unverified",
+    "actual_event_status": "active"
+  },
+  {
+    "report_id": "SOC-019",
+    "expected_flag": "REVIEW",
+    "actual_flag": "REVIEW",
+    "flag_agrees": true,
+    "expected_event_id": "EV-REPUBLIQUE",
+    "actual_event_id": "MODEL-EV-011",
+    "field_disagreements": {
+      "update_type": {
+        "expected": "update",
+        "actual": "initial_report"
+      }
+    },
+    "expected_contribution": "adds_information",
+    "actual_contribution": "new_event",
+    "expected_event_action": "URGENT_REVIEW",
+    "actual_event_action": "MONITOR",
+    "expected_event_status": "partially_supported",
+    "actual_event_status": "normal"
+  },
+  {
+    "report_id": "SOC-020",
+    "expected_flag": "MONITOR",
+    "actual_flag": "MONITOR",
+    "flag_agrees": true,
+    "expected_event_id": "EV-CHAPELLE",
+    "actual_event_id": "MODEL-EV-006",
+    "field_disagreements": {},
+    "expected_contribution": "adds_information",
+    "actual_contribution": "adds_information",
+    "expected_event_action": "MONITOR",
+    "actual_event_action": "MONITOR",
+    "expected_event_status": "active",
+    "actual_event_status": "active"
+  },
+  {
+    "report_id": "SOC-021",
+    "expected_flag": "REVIEW",
+    "actual_flag": "REVIEW",
+    "flag_agrees": true,
+    "expected_event_id": "EV-DONOR-ACCESS",
+    "actual_event_id": "MODEL-EV-012",
+    "field_disagreements": {
+      "zone": {
+        "expected": "paris_northeast",
+        "actual": "unknown"
+      }
+    },
+    "expected_contribution": "adds_information",
+    "actual_contribution": "new_event",
+    "expected_event_action": "REVIEW",
+    "actual_event_action": "REVIEW",
+    "expected_event_status": "active",
+    "actual_event_status": "normal"
+  },
+  {
+    "report_id": "SOC-022",
+    "expected_flag": "IGNORE",
+    "actual_flag": "REVIEW",
+    "flag_agrees": false,
+    "expected_event_id": "EV-CHAPELLE",
+    "actual_event_id": "MODEL-EV-006",
+    "field_disagreements": {
+      "impact_pathway": {
+        "expected": "none",
+        "actual": "potential_demand"
+      },
+      "reported_impact_level": {
+        "expected": 0,
+        "actual": 1
+      }
+    },
+    "expected_contribution": "adds_information",
+    "actual_contribution": "adds_information",
+    "expected_event_action": "MONITOR",
+    "actual_event_action": "MONITOR",
+    "expected_event_status": "active",
+    "actual_event_status": "resolution_reported"
+  },
+  {
+    "report_id": "SOC-023",
+    "expected_flag": "MONITOR",
+    "actual_flag": "MONITOR",
+    "flag_agrees": true,
+    "expected_event_id": "EV-TRANSIT",
+    "actual_event_id": "MODEL-EV-009",
+    "field_disagreements": {
+      "evidence_basis": {
+        "expected": "attributed_report",
+        "actual": "direct_observation"
+      },
+      "update_type": {
+        "expected": "update",
+        "actual": "initial_report"
+      }
+    },
+    "expected_contribution": "corroborates",
+    "actual_contribution": "adds_information",
+    "expected_event_action": "MONITOR",
+    "actual_event_action": "MONITOR",
+    "expected_event_status": "supported",
+    "actual_event_status": "normal"
+  },
+  {
+    "report_id": "SOC-024",
+    "expected_flag": "REVIEW",
+    "actual_flag": "REVIEW",
+    "flag_agrees": true,
+    "expected_event_id": "EV-REPUBLIQUE",
+    "actual_event_id": "MODEL-EV-002",
+    "field_disagreements": {
+      "update_type": {
+        "expected": "correction_or_denial",
+        "actual": "update"
+      }
+    },
+    "expected_contribution": "contradicts",
+    "actual_contribution": "adds_information",
+    "expected_event_action": "URGENT_REVIEW",
+    "actual_event_action": "URGENT_REVIEW",
+    "expected_event_status": "disputed",
+    "actual_event_status": "active"
+  },
+  {
+    "report_id": "SOC-025",
+    "expected_flag": "IGNORE",
+    "actual_flag": "IGNORE",
+    "flag_agrees": true,
+    "expected_event_id": "EV-REPUBLIQUE",
+    "actual_event_id": "MODEL-EV-002",
+    "field_disagreements": {
+      "impact_pathway": {
+        "expected": "potential_demand",
+        "actual": "none"
+      },
+      "reported_impact_level": {
+        "expected": 3,
+        "actual": 0
+      },
+      "evidence_basis": {
+        "expected": "attributed_report",
+        "actual": "direct_observation"
+      }
+    },
+    "expected_contribution": "historical_reference",
+    "actual_contribution": "historical_reference",
+    "expected_event_action": "URGENT_REVIEW",
+    "actual_event_action": "URGENT_REVIEW",
+    "expected_event_status": "disputed",
+    "actual_event_status": "disputed"
+  },
+  {
+    "report_id": "SOC-026",
+    "expected_flag": "REVIEW",
+    "actual_flag": "REVIEW",
+    "flag_agrees": true,
+    "expected_event_id": "EV-CHAPELLE",
+    "actual_event_id": "MODEL-EV-006",
+    "field_disagreements": {
+      "timing": {
+        "expected": "ongoing",
+        "actual": "past"
+      }
+    },
+    "expected_contribution": "resolves",
+    "actual_contribution": "resolves",
+    "expected_event_action": "REVIEW",
+    "actual_event_action": "REVIEW",
+    "expected_event_status": "resolution_reported",
+    "actual_event_status": "resolution_reported"
+  },
+  {
+    "report_id": "SOC-027",
+    "expected_flag": "REVIEW",
+    "actual_flag": "REVIEW",
+    "flag_agrees": true,
+    "expected_event_id": "EV-REPUBLIQUE",
+    "actual_event_id": "MODEL-EV-002",
+    "field_disagreements": {
+      "timing": {
+        "expected": "ongoing",
+        "actual": "past"
+      },
+      "impact_pathway": {
+        "expected": "potential_demand",
+        "actual": "none"
+      }
+    },
+    "expected_contribution": "resolves",
+    "actual_contribution": "resolves",
+    "expected_event_action": "REVIEW",
+    "actual_event_action": "REVIEW",
+    "expected_event_status": "resolution_reported",
+    "actual_event_status": "resolution_reported"
+  },
+  {
+    "report_id": "SOC-028",
+    "expected_flag": "IGNORE",
+    "actual_flag": "IGNORE",
+    "flag_agrees": true,
+    "expected_event_id": "EV-FALSE-APPEAL",
+    "actual_event_id": "MODEL-EV-007",
+    "field_disagreements": {
+      "timing": {
+        "expected": "ongoing",
+        "actual": "past"
+      },
+      "update_type": {
+        "expected": "initial_report",
+        "actual": "update"
+      }
+    },
+    "expected_contribution": "duplicate",
+    "actual_contribution": "duplicate",
+    "expected_event_action": "REVIEW",
+    "actual_event_action": "REVIEW",
+    "expected_event_status": "disputed",
+    "actual_event_status": "disputed"
+  },
+  {
+    "report_id": "SOC-029",
+    "expected_flag": "REVIEW",
+    "actual_flag": "REVIEW",
+    "flag_agrees": true,
+    "expected_event_id": "EV-DONOR-ACCESS",
+    "actual_event_id": "MODEL-EV-012",
+    "field_disagreements": {
+      "zone": {
+        "expected": "paris_northeast",
+        "actual": "paris_west"
+      },
+      "timing": {
+        "expected": "ongoing",
+        "actual": "past"
+      },
+      "reported_impact_level": {
+        "expected": 0,
+        "actual": 1
+      },
+      "update_type": {
+        "expected": "resolution",
+        "actual": "update"
+      }
+    },
+    "expected_contribution": "resolves",
+    "actual_contribution": "resolves",
+    "expected_event_action": "REVIEW",
+    "actual_event_action": "REVIEW",
+    "expected_event_status": "resolution_reported",
+    "actual_event_status": "resolution_reported"
+  },
+  {
+    "report_id": "SOC-030",
+    "expected_flag": "IGNORE",
+    "actual_flag": "IGNORE",
+    "flag_agrees": true,
+    "expected_event_id": "EV-LYON",
+    "actual_event_id": "MODEL-EV-003",
+    "field_disagreements": {
+      "timing": {
+        "expected": "ongoing",
+        "actual": "past"
+      },
+      "update_type": {
+        "expected": "resolution",
+        "actual": "update"
+      }
+    },
+    "expected_contribution": "resolves",
+    "actual_contribution": "unrelated",
+    "expected_event_action": "REVIEW",
+    "actual_event_action": "MONITOR",
+    "expected_event_status": "resolution_reported",
+    "actual_event_status": "resolution_reported"
+  },
+  {
+    "report_id": "SOC-031",
+    "expected_flag": "IGNORE",
+    "actual_flag": "IGNORE",
+    "flag_agrees": true,
+    "expected_event_id": "EV-NANTES",
+    "actual_event_id": "MODEL-EV-004",
+    "field_disagreements": {
+      "update_type": {
+        "expected": "update",
+        "actual": "initial_report"
+      }
+    },
+    "expected_contribution": "historical_reference",
+    "actual_contribution": "historical_reference",
+    "expected_event_action": "MONITOR",
+    "actual_event_action": "MONITOR",
+    "expected_event_status": "planned",
+    "actual_event_status": "normal"
+  },
+  {
+    "report_id": "SOC-032",
+    "expected_flag": "REVIEW",
+    "actual_flag": "REVIEW",
+    "flag_agrees": true,
+    "expected_event_id": "EV-TRANSIT",
+    "actual_event_id": "MODEL-EV-009",
+    "field_disagreements": {
+      "timing": {
+        "expected": "ongoing",
+        "actual": "past"
+      },
+      "update_type": {
+        "expected": "resolution",
+        "actual": "update"
+      }
+    },
+    "expected_contribution": "resolves",
+    "actual_contribution": "resolves",
+    "expected_event_action": "REVIEW",
+    "actual_event_action": "MONITOR",
+    "expected_event_status": "resolution_reported",
+    "actual_event_status": "resolution_reported"
+  },
+  {
+    "report_id": "SOC-033",
+    "expected_flag": "IGNORE",
+    "actual_flag": "REVIEW",
+    "flag_agrees": false,
+    "expected_event_id": "EV-CLEANUP",
+    "actual_event_id": null,
+    "field_disagreements": {
+      "zone": {
+        "expected": "paris_unspecified",
+        "actual": "paris_centre_east"
+      },
+      "timing": {
+        "expected": "ongoing",
+        "actual": "past"
+      },
+      "evidence_basis": {
+        "expected": "attributed_report",
+        "actual": "direct_observation"
+      }
+    },
+    "expected_contribution": "new_event",
+    "actual_contribution": "unrelated",
+    "expected_event_action": "MONITOR",
+    "actual_event_action": "IGNORE",
+    "expected_event_status": "recovery",
+    "actual_event_status": "normal"
+  },
+  {
+    "report_id": "SOC-034",
+    "expected_flag": "REVIEW",
+    "actual_flag": "REVIEW",
+    "flag_agrees": true,
+    "expected_event_id": "EV-UNKNOWN",
+    "actual_event_id": "MODEL-EV-013",
+    "field_disagreements": {
+      "impact_pathway": {
+        "expected": "potential_demand",
+        "actual": "unclear"
+      },
+      "evidence_basis": {
+        "expected": "rumour_or_speculation",
+        "actual": "attributed_report"
+      }
+    },
+    "expected_contribution": "new_event",
+    "actual_contribution": "new_event",
+    "expected_event_action": "REVIEW",
+    "actual_event_action": "MONITOR",
+    "expected_event_status": "unverified",
+    "actual_event_status": "normal"
+  },
+  {
+    "report_id": "SOC-035",
+    "expected_flag": "MONITOR",
+    "actual_flag": "MONITOR",
+    "flag_agrees": true,
+    "expected_event_id": "EV-PARIS-SOUTH",
+    "actual_event_id": "MODEL-EV-014",
+    "field_disagreements": {},
+    "expected_contribution": "new_event",
+    "actual_contribution": "new_event",
+    "expected_event_action": "MONITOR",
+    "actual_event_action": "MONITOR",
+    "expected_event_status": "active",
+    "actual_event_status": "normal"
+  },
+  {
+    "report_id": "SOC-036",
+    "expected_flag": "IGNORE",
+    "actual_flag": "IGNORE",
+    "flag_agrees": true,
+    "expected_event_id": null,
+    "actual_event_id": null,
+    "field_disagreements": {
+      "timing": {
+        "expected": "ongoing",
+        "actual": "past"
+      },
+      "update_type": {
+        "expected": "initial_report",
+        "actual": "unclear"
+      }
+    },
+    "expected_contribution": "unrelated",
+    "actual_contribution": "unrelated",
+    "expected_event_action": null,
+    "actual_event_action": "IGNORE",
+    "expected_event_status": null,
+    "actual_event_status": "normal"
+  }
+]

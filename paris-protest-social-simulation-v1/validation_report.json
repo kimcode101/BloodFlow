@@ -1,0 +1,24 @@
+{
+  "validation": "PASS",
+  "reports": 36,
+  "reference_decisions": 36,
+  "event_families": 12,
+  "event_updates": 33,
+  "days": {
+    "2026-10-16": 12,
+    "2026-10-17": 12,
+    "2026-10-18": 12
+  },
+  "paris_actions": {
+    "IGNORE": 16,
+    "MONITOR": 9,
+    "URGENT_REVIEW": 2,
+    "REVIEW": 9
+  },
+  "model_api_called": false,
+  "limitations": [
+    "Structural and chronological validation only",
+    "Authored reference decisions have not been independently reviewed",
+    "No decision-model API was called"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "origin": "User project: /Users/niccolo/Documents/ChatGPT/hackathon",
+  "source_files": {
+    "backend/optimizer/solver.py": "d6348237ca5c275d4f686c899ac6c95782951f17badf6d25900c5000ffcccbff",
+    "backend/schemas.py": "67b4e18f4aa219e2492059341e908a8df036959c9ab59e2afcf869c23e569c6c"
+  },
+  "adaptation": "Preserved deterministic integer CP-SAT, staged lexicographic objectives with equality locks and valid-incumbent fallback. Extended aggregate hospital/group flows to dated expiry-cohort assignments, explicit roads, concrete unit IDs and existing approval records."
+}

@@ -1,0 +1,8 @@
+site_id,name,address,arrondissement,lat,lon,trauma_level,beds,avg_daily_rbc_units,home_bank_id,site_type,is_synthetic,metadata_status
+H1,Hôpital Lariboisière (AP-HP),"2 rue Ambroise-Paré, 75010 Paris",10,48.8826,2.353,1,900,30,B1,hospital,true,provided_demo_fixture_unverified
+H2,Hôpital de la Pitié-Salpêtrière (AP-HP),"47-83 boulevard de l'Hôpital, 75013 Paris",13,48.838,2.364,1,1700,45,B1,hospital,true,provided_demo_fixture_unverified
+H3,Hôpital Européen Georges-Pompidou (AP-HP),"20 rue Leblanc, 75015 Paris",15,48.8389,2.2735,1,800,30,B2,hospital,true,provided_demo_fixture_unverified
+H4,Hôpital Bichat-Claude-Bernard (AP-HP),"46 rue Henri-Huchard, 75018 Paris",18,48.8988,2.3326,2,900,20,B2,hospital,true,provided_demo_fixture_unverified
+B1,EFS Paris Saint-Antoine-Crozatier,"21 rue Crozatier, 75012 Paris",12,48.8494,2.381,,,,,blood_bank,true,provided_demo_fixture_unverified
+B2,EFS Paris Cabanel,"6 rue Alexandre-Cabanel, 75015 Paris",15,48.8478,2.301,,,,,blood_bank,true,provided_demo_fixture_unverified
+X1,EFS national supply (other regions),,,,,,,,,external,true,provided_demo_fixture_unverified

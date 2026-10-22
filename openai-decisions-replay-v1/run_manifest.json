@@ -1,0 +1,10 @@
+{
+  "dataset_sha256": "2ebde06b9ef885791eea5d6736c21e2756db4f29d2146b7fcf8994ac15bc90ce",
+  "rubric_sha256": "d4cfe5c01680a822eab8db276b3aa4b86cc5fdff7c516f55d468b39fb2e68e1f",
+  "runner_sha256": "124975506b831d0141ef0c2b929f5e09f6f029c494b5172e32f77e8b0bdac649",
+  "model": "gpt-6-luna",
+  "provider": "OpenAI direct Decisions API",
+  "endpoint": "https://api.openai.com/v1/decisions",
+  "authorization": "User requested this dataset replay and comparison in the current chat.",
+  "labels": "Assistant-authored, not independently human-reviewed; scoring is provisional agreement."
+}

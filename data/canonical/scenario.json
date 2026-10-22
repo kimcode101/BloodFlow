@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0",
+  "dataset_id": "paris_blood_demo_20261022",
+  "is_synthetic": true,
+  "snapshot_date": "2026-10-22",
+  "timezone": "Europe/Paris",
+  "simulation_start": "2026-10-22T12:00:00+02:00",
+  "simulation_start_note": "No exact snapshot time was supplied. Noon is an explicit demo assumption, consistent with partial-day usage; it is not an observed time.",
+  "component": "RBC",
+  "blood_types": [
+    "O+",
+    "O-",
+    "A+",
+    "A-",
+    "B+",
+    "B-",
+    "AB+",
+    "AB-"
+  ],
+  "expiry_rule": "expiry_date <= simulated date is unavailable",
+  "baseline_window_days": 7,
+  "partial_days_in_baseline": false,
+  "demand_rule": "max(historical_full_day_mean, planned_units_for_that_day)",
+  "demand_rule_note": "A planning floor prevents adding a full baseline to scheduled demand that it may already contain. This is an explicit provisional demo assumption, not a validated forecast.",
+  "known_planning_start": "2026-10-23",
+  "known_planning_end": "2026-11-05",
+  "low_days_of_supply": 6,
+  "critical_days_of_supply": 3,
+  "donation_to_usage_ratio": {
+    "O+": 1.0,
+    "O-": 0.6,
+    "A+": 1.0,
+    "A-": 1.0,
+    "B+": 1.0,
+    "B-": 1.0,
+    "AB+": 1.0,
+    "AB-": 1.0
+  },
+  "simulation_shelf_life_days": 42,
+  "transfer_safety_reserve_days": 1,
+  "social_template_shift_days": 7,
+  "social_window": [
+    "2026-10-23",
+    "2026-10-25"
+  ],
+  "social_effect_on_demand": "qualitative_review_only; no unvalidated conversion from posts to transfusion units",
+  "site_metadata_status": "all supplied clinical capacities and routing metadata are unverified demo assumptions"
+}

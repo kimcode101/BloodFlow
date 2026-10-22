@@ -1,0 +1,156 @@
+{
+  "interpretation": "Exploratory agreement with assistant-authored, unreviewed labels; not real-world or clinical accuracy.",
+  "model": "gpt-6-luna",
+  "reports_completed": 36,
+  "reports_expected": 36,
+  "actual_api_requests": 108,
+  "repetitions": 1,
+  "metric_agreement": {
+    "flag_agreement": {
+      "matched": 32,
+      "n": 36,
+      "rate": 0.8888888888888888
+    },
+    "zone_agreement": {
+      "matched": 30,
+      "n": 36,
+      "rate": 0.8333333333333334
+    },
+    "timing_agreement": {
+      "matched": 25,
+      "n": 36,
+      "rate": 0.6944444444444444
+    },
+    "impact_pathway_agreement": {
+      "matched": 28,
+      "n": 36,
+      "rate": 0.7777777777777778
+    },
+    "reported_impact_level_agreement": {
+      "matched": 29,
+      "n": 36,
+      "rate": 0.8055555555555556
+    },
+    "evidence_basis_agreement": {
+      "matched": 25,
+      "n": 36,
+      "rate": 0.6944444444444444
+    },
+    "update_type_agreement": {
+      "matched": 21,
+      "n": 36,
+      "rate": 0.5833333333333334
+    },
+    "contribution_agreement": {
+      "matched": 27,
+      "n": 36,
+      "rate": 0.75
+    },
+    "event_priority_agreement": {
+      "matched": 22,
+      "n": 33,
+      "rate": 0.6666666666666666
+    },
+    "event_status_agreement": {
+      "matched": 18,
+      "n": 33,
+      "rate": 0.5454545454545454
+    },
+    "tag_UNVERIFIED_agreement": {
+      "matched": 12,
+      "n": 36,
+      "rate": 0.3333333333333333
+    },
+    "tag_DUPLICATE_agreement": {
+      "matched": 35,
+      "n": 36,
+      "rate": 0.9722222222222222
+    },
+    "tag_CONFLICTING_agreement": {
+      "matched": 34,
+      "n": 36,
+      "rate": 0.9444444444444444
+    },
+    "tag_LOCATION_UNCLEAR_agreement": {
+      "matched": 32,
+      "n": 36,
+      "rate": 0.8888888888888888
+    },
+    "tag_TIME_UNCLEAR_agreement": {
+      "matched": 34,
+      "n": 36,
+      "rate": 0.9444444444444444
+    },
+    "tag_RESOLUTION_REPORTED_agreement": {
+      "matched": 34,
+      "n": 36,
+      "rate": 0.9444444444444444
+    }
+  },
+  "confusion_matrix_expected_rows_actual_columns": {
+    "IGNORE": {
+      "IGNORE": 13,
+      "MONITOR": 0,
+      "REVIEW": 2,
+      "URGENT_REVIEW": 1
+    },
+    "MONITOR": {
+      "IGNORE": 0,
+      "MONITOR": 9,
+      "REVIEW": 0,
+      "URGENT_REVIEW": 0
+    },
+    "REVIEW": {
+      "IGNORE": 0,
+      "MONITOR": 0,
+      "REVIEW": 9,
+      "URGENT_REVIEW": 0
+    },
+    "URGENT_REVIEW": {
+      "IGNORE": 0,
+      "MONITOR": 0,
+      "REVIEW": 1,
+      "URGENT_REVIEW": 1
+    }
+  },
+  "per_class": {
+    "IGNORE": {
+      "support": 16,
+      "precision": 1.0,
+      "recall": 0.8125
+    },
+    "MONITOR": {
+      "support": 9,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    "REVIEW": {
+      "support": 9,
+      "precision": 0.75,
+      "recall": 1.0
+    },
+    "URGENT_REVIEW": {
+      "support": 2,
+      "precision": 0.5,
+      "recall": 0.5
+    }
+  },
+  "majority_class_baseline": {
+    "flag": "IGNORE",
+    "agreement": 0.4444444444444444
+  },
+  "event_pair_counts": {
+    "true_positive": 43,
+    "false_positive": 0,
+    "false_negative": 13,
+    "true_negative": 574
+  },
+  "event_pair_precision": 1.0,
+  "event_pair_recall": 0.7678571428571429,
+  "input_tokens": 392724,
+  "base_rate_estimated_cost_usd": 0.0392724,
+  "cost_note": "Input usage from native responses at the published $0.10/M base rate. Not a billing receipt; regional/long-context premiums are not known.",
+  "sum_successful_request_latency_s": 57.26349900008063,
+  "uncertainty_note": "Single chronological trajectory; correlated event reports and no repeated runs. No generalisation interval or stability claim.",
+  "tag_threshold_note": "0.5 is a disclosed demonstration threshold, not calibrated on held-out data."
+}

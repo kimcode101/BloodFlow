@@ -1,0 +1,152 @@
+{
+  "dataset_id": "PARIS-PROTEST-SOCIAL-20261016-V1",
+  "is_synthetic": true,
+  "dates": [
+    "2026-10-16",
+    "2026-10-17",
+    "2026-10-18"
+  ],
+  "timezone": "Europe/Paris",
+  "historical_fidelity": "Historically inspired simulation, not a historical reconstruction or collection of authentic posts.",
+  "all_exact_post_times_invented": true,
+  "all_accounts_invented": true,
+  "all_local_injury_and_blood_service_consequences_invented": true,
+  "contains_patient_or_inventory_data": false,
+  "events": [
+    {
+      "event_id": "EV-NATIONAL",
+      "zone": "france_unspecified",
+      "last_reference_status": "planned",
+      "final_reference_action": "MONITOR",
+      "report_ids": [
+        "SOC-001",
+        "SOC-007"
+      ]
+    },
+    {
+      "event_id": "EV-REPUBLIQUE",
+      "zone": "paris_centre_east",
+      "last_reference_status": "resolution_reported",
+      "final_reference_action": "REVIEW",
+      "report_ids": [
+        "SOC-002",
+        "SOC-003",
+        "SOC-016",
+        "SOC-017",
+        "SOC-018",
+        "SOC-019",
+        "SOC-024",
+        "SOC-025",
+        "SOC-027"
+      ]
+    },
+    {
+      "event_id": "EV-LYON",
+      "zone": "lyon",
+      "last_reference_status": "resolution_reported",
+      "final_reference_action": "REVIEW",
+      "report_ids": [
+        "SOC-005",
+        "SOC-015",
+        "SOC-030"
+      ]
+    },
+    {
+      "event_id": "EV-NANTES",
+      "zone": "nantes",
+      "last_reference_status": "planned",
+      "final_reference_action": "MONITOR",
+      "report_ids": [
+        "SOC-006",
+        "SOC-031"
+      ]
+    },
+    {
+      "event_id": "EV-CHAPELLE",
+      "zone": "paris_northeast",
+      "last_reference_status": "resolution_reported",
+      "final_reference_action": "REVIEW",
+      "report_ids": [
+        "SOC-008",
+        "SOC-020",
+        "SOC-022",
+        "SOC-026"
+      ]
+    },
+    {
+      "event_id": "EV-DONOR-ACCESS",
+      "zone": "paris_northeast",
+      "last_reference_status": "resolution_reported",
+      "final_reference_action": "REVIEW",
+      "report_ids": [
+        "SOC-009",
+        "SOC-021",
+        "SOC-029"
+      ]
+    },
+    {
+      "event_id": "EV-FALSE-APPEAL",
+      "zone": "paris_northeast",
+      "last_reference_status": "disputed",
+      "final_reference_action": "REVIEW",
+      "report_ids": [
+        "SOC-010",
+        "SOC-011",
+        "SOC-028"
+      ]
+    },
+    {
+      "event_id": "EV-OPERA",
+      "zone": "paris_west",
+      "last_reference_status": "active",
+      "final_reference_action": "MONITOR",
+      "report_ids": [
+        "SOC-013"
+      ]
+    },
+    {
+      "event_id": "EV-TRANSIT",
+      "zone": "paris_west",
+      "last_reference_status": "resolution_reported",
+      "final_reference_action": "REVIEW",
+      "report_ids": [
+        "SOC-014",
+        "SOC-023",
+        "SOC-032"
+      ]
+    },
+    {
+      "event_id": "EV-CLEANUP",
+      "zone": "paris_unspecified",
+      "last_reference_status": "recovery",
+      "final_reference_action": "MONITOR",
+      "report_ids": [
+        "SOC-033"
+      ]
+    },
+    {
+      "event_id": "EV-UNKNOWN",
+      "zone": "unknown",
+      "last_reference_status": "unverified",
+      "final_reference_action": "REVIEW",
+      "report_ids": [
+        "SOC-034"
+      ]
+    },
+    {
+      "event_id": "EV-PARIS-SOUTH",
+      "zone": "paris_south",
+      "last_reference_status": "active",
+      "final_reference_action": "MONITOR",
+      "report_ids": [
+        "SOC-035"
+      ]
+    }
+  ],
+  "fictional_facility_ids": [
+    "Hôpital-Démo-01",
+    "Centre de collecte Démo-Nord"
+  ],
+  "integration_boundary": "Use model-derived event IDs, zone, as_of, claim type, evidence status and review priority to join later. No assumed hospital catchment, patient routing, blood units, blood group or shortage probability is included.",
+  "evaluation_split_recommendation": "Split whole event families, never random posts. Separate EV-REPUBLIQUE and EV-CHAPELLE to test nearby-event separation. This small authored sample is a starter set; independent review and more cases are needed before comparing model quality."
+}

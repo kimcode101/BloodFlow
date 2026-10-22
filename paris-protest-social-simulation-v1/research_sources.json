@@ -1,0 +1,48 @@
+[
+  {
+    "source_id": "SRC-FRI",
+    "publisher": "Euronews",
+    "url": "https://fr.euronews.com/2026/10/16/mobilisation-du-17-octobre-qui-manifestera-en-france-et-quelle-ampleur-attendre",
+    "observed_publication_time": "2026-10-16T13:12:00+02:00",
+    "accessed_date": "2026-10-22",
+    "supported_anchor": "Friday reporting described planned national mobilisation, including Paris, Lyon and Nantes; Paris meeting points and route approval were unsettled.",
+    "limit": "Not evidence that each planned action occurred, caused injuries, or affected blood services. Synthetic posts before 13:12 are invented plans, not reconstructions based on an earlier copy of this article."
+  },
+  {
+    "source_id": "SRC-RATP",
+    "publisher": "Bonjour RATP",
+    "url": "https://www.bonjour-ratp.fr/actualites/articles/manifestation-17-octobre-2026/",
+    "observed_update_time": "2026-10-17T15:10:00+02:00",
+    "accessed_date": "2026-10-22",
+    "supported_anchor": "The operator listed Saturday station closures, including Charles-de-Gaulle–Etoile and Concorde from 08:00, and possible bus diversions.",
+    "limit": "The fetched version is updated at 15:10. Its earlier contents are not established. Metro closures do not establish blocked blood deliveries."
+  },
+  {
+    "source_id": "SRC-CITY-SAT",
+    "publisher": "Ville de Paris",
+    "url": "https://pressev2.paris.fr/communiques/la-ville-de-paris-condamne-avec-la-plus-grande-fermete-les-violences-et-les-pillages-commis-dans-la-capitale",
+    "observed_update_time": "2026-10-17T21:06:00+02:00",
+    "accessed_date": "2026-10-22",
+    "supported_anchor": "The city reported violence and damage in several districts alongside predominantly peaceful protest, and described its municipal response.",
+    "limit": "A municipal account, not a clinical casualty register or a blood-inventory report. No precise synthetic injury or hospital claim is authenticated by it."
+  },
+  {
+    "source_id": "SRC-CITY-SUN",
+    "publisher": "Ville de Paris",
+    "url": "https://pressev2.paris.fr/communiques/manifestations-du-17-octobre-la-ville-de-paris-mobilise-pres-de-1-000-agents-pour-remettre-en-etat-l-espace-public",
+    "observed_update_time": "2026-10-18T13:30:00+02:00",
+    "accessed_date": "2026-10-22",
+    "supported_anchor": "Sunday's municipal update described overnight and morning cleanup and ongoing restoration of public space.",
+    "limit": "Recovery work does not prove that every area was calm or that hospital demand had returned to baseline."
+  },
+  {
+    "source_id": "SRC-SUN-REPORT",
+    "publisher": "Le Monde",
+    "url": "https://www.lemonde.fr/en/france/article/2026/10/18/october-17-french-protests-crowds-marched-through-the-streets-before-violence-looting-and-chaos-broke-out_6758725_7.html",
+    "observed_publication_time": "2026-10-18T12:32:00+02:00",
+    "observed_update_time": "2026-10-19T11:05:00+02:00",
+    "accessed_date": "2026-10-22",
+    "supported_anchor": "Retrospective reporting describes Saturday protests across cities and multiple Paris gathering dynamics, including around Opera and Republique.",
+    "limit": "Fetched version includes Monday updates. Used only to inspire the broad setting; never injected into Saturday model context. Exact synthetic local injury reports are invented."
+  }
+]

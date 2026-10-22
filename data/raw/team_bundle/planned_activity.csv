@@ -1,0 +1,248 @@
+activity_id,site_id,date,procedure,blood_type,units_expected,priority
+1,H1,2026-10-23,haematology/oncology,A+,1,elective
+2,H1,2026-10-23,orthopaedic surgery,A-,1,elective
+3,H1,2026-10-23,haematology/oncology,O+,2,elective
+4,H1,2026-10-23,vascular surgery,A+,4,elective
+5,H1,2026-10-23,liver transplant,O-,8,scheduled-critical
+6,H2,2026-10-23,vascular surgery,A+,2,elective
+7,H2,2026-10-23,haematology/oncology,O+,4,elective
+8,H2,2026-10-23,obstetrics,O-,1,elective
+9,H2,2026-10-23,obstetrics,O+,1,elective
+10,H2,2026-10-23,haematology/oncology,B+,2,elective
+11,H2,2026-10-23,vascular surgery,O+,2,elective
+12,H2,2026-10-23,cardiac surgery,A+,6,elective
+13,H3,2026-10-23,vascular surgery,A+,5,elective
+14,H3,2026-10-23,vascular surgery,O+,4,elective
+15,H3,2026-10-23,vascular surgery,O-,2,elective
+16,H3,2026-10-23,haematology/oncology,A+,4,elective
+17,H3,2026-10-23,orthopaedic surgery,A+,3,elective
+18,H4,2026-10-23,vascular surgery,A+,3,elective
+19,H4,2026-10-23,cardiac surgery,A+,6,elective
+20,H4,2026-10-23,cardiac surgery,A+,2,elective
+21,H4,2026-10-23,orthopaedic surgery,A+,1,elective
+22,H4,2026-10-23,vascular surgery,O+,2,elective
+23,H4,2026-10-23,haematology/oncology,B+,2,elective
+24,H1,2026-10-24,orthopaedic surgery,O+,3,elective
+25,H1,2026-10-24,obstetrics,A+,2,elective
+26,H2,2026-10-24,orthopaedic surgery,A+,3,elective
+27,H3,2026-10-24,orthopaedic surgery,B-,1,elective
+28,H4,2026-10-24,orthopaedic surgery,A+,2,elective
+29,H1,2026-10-25,orthopaedic surgery,O+,2,elective
+30,H2,2026-10-25,haematology/oncology,O+,2,elective
+31,H3,2026-10-25,orthopaedic surgery,A+,3,elective
+32,H3,2026-10-25,orthopaedic surgery,A+,3,elective
+33,H4,2026-10-25,orthopaedic surgery,O-,1,elective
+34,H4,2026-10-25,haematology/oncology,A+,3,elective
+35,H1,2026-10-26,orthopaedic surgery,O+,3,elective
+36,H1,2026-10-26,orthopaedic surgery,A+,1,elective
+37,H1,2026-10-26,vascular surgery,O+,4,elective
+38,H2,2026-10-26,obstetrics,A+,2,elective
+39,H2,2026-10-26,obstetrics,O+,1,elective
+40,H2,2026-10-26,haematology/oncology,B-,4,elective
+41,H2,2026-10-26,obstetrics,A+,1,elective
+42,H2,2026-10-26,orthopaedic surgery,A+,1,elective
+43,H3,2026-10-26,obstetrics,A+,1,elective
+44,H3,2026-10-26,orthopaedic surgery,A+,3,elective
+45,H3,2026-10-26,cardiac surgery,A+,6,elective
+46,H3,2026-10-26,vascular surgery,O+,4,elective
+47,H3,2026-10-26,cardiac surgery,O-,2,elective
+48,H4,2026-10-26,cardiac surgery,O+,2,elective
+49,H4,2026-10-26,obstetrics,O-,2,elective
+50,H4,2026-10-26,obstetrics,O+,2,elective
+51,H1,2026-10-27,vascular surgery,A+,4,elective
+52,H1,2026-10-27,vascular surgery,O+,3,elective
+53,H1,2026-10-27,cardiac surgery,A+,3,elective
+54,H2,2026-10-27,cardiac surgery,AB+,6,elective
+55,H2,2026-10-27,vascular surgery,O+,4,elective
+56,H2,2026-10-27,haematology/oncology,O+,1,elective
+57,H2,2026-10-27,orthopaedic surgery,O+,1,elective
+58,H2,2026-10-27,orthopaedic surgery,AB-,2,elective
+59,H2,2026-10-27,cardiac surgery,O-,4,elective
+60,H2,2026-10-27,cardiac surgery,A+,3,elective
+61,H3,2026-10-27,haematology/oncology,A+,4,elective
+62,H3,2026-10-27,vascular surgery,O+,5,elective
+63,H3,2026-10-27,obstetrics,O+,1,elective
+64,H4,2026-10-27,haematology/oncology,B+,1,elective
+65,H4,2026-10-27,obstetrics,O+,1,elective
+66,H4,2026-10-27,vascular surgery,O+,5,elective
+67,H4,2026-10-27,cardiac surgery,O-,4,elective
+68,H4,2026-10-27,haematology/oncology,A+,2,elective
+69,H4,2026-10-27,haematology/oncology,B-,4,elective
+70,H1,2026-10-28,haematology/oncology,O+,3,elective
+71,H1,2026-10-28,orthopaedic surgery,O-,3,elective
+72,H1,2026-10-28,vascular surgery,A-,5,elective
+73,H2,2026-10-28,orthopaedic surgery,O+,3,elective
+74,H2,2026-10-28,obstetrics,B+,1,elective
+75,H2,2026-10-28,cardiac surgery,A+,5,elective
+76,H2,2026-10-28,haematology/oncology,O+,1,elective
+77,H2,2026-10-28,vascular surgery,A+,5,elective
+78,H3,2026-10-28,orthopaedic surgery,O+,1,elective
+79,H3,2026-10-28,vascular surgery,O+,4,elective
+80,H3,2026-10-28,cardiac surgery,A+,6,elective
+81,H3,2026-10-28,cardiac surgery,O+,3,elective
+82,H3,2026-10-28,obstetrics,A+,2,elective
+83,H3,2026-10-28,vascular surgery,O+,5,elective
+84,H3,2026-10-28,vascular surgery,A+,5,elective
+85,H3,2026-10-28,haematology/oncology,A+,3,elective
+86,H4,2026-10-28,orthopaedic surgery,O+,3,elective
+87,H4,2026-10-28,orthopaedic surgery,A+,1,elective
+88,H4,2026-10-28,haematology/oncology,O+,3,elective
+89,H1,2026-10-29,vascular surgery,A+,4,elective
+90,H1,2026-10-29,orthopaedic surgery,O-,2,elective
+91,H1,2026-10-29,vascular surgery,A-,4,elective
+92,H1,2026-10-29,obstetrics,O+,2,elective
+93,H1,2026-10-29,vascular surgery,A-,5,elective
+94,H2,2026-10-29,obstetrics,O+,2,elective
+95,H2,2026-10-29,orthopaedic surgery,A-,1,elective
+96,H2,2026-10-29,obstetrics,O+,2,elective
+97,H2,2026-10-29,vascular surgery,A+,5,elective
+98,H2,2026-10-29,orthopaedic surgery,A+,2,elective
+99,H3,2026-10-29,cardiac surgery,A-,2,elective
+100,H3,2026-10-29,vascular surgery,A+,2,elective
+101,H3,2026-10-29,vascular surgery,O+,3,elective
+102,H3,2026-10-29,cardiac surgery,O+,4,elective
+103,H3,2026-10-29,orthopaedic surgery,O+,2,elective
+104,H3,2026-10-29,orthopaedic surgery,O+,3,elective
+105,H3,2026-10-29,obstetrics,O-,1,elective
+106,H3,2026-10-29,obstetrics,O+,2,elective
+107,H4,2026-10-29,haematology/oncology,A+,3,elective
+108,H4,2026-10-29,haematology/oncology,B+,1,elective
+109,H4,2026-10-29,vascular surgery,A+,3,elective
+110,H4,2026-10-29,haematology/oncology,A+,1,elective
+111,H4,2026-10-29,haematology/oncology,O+,4,elective
+112,H4,2026-10-29,orthopaedic surgery,O+,2,elective
+113,H4,2026-10-29,orthopaedic surgery,A-,1,elective
+114,H4,2026-10-29,haematology/oncology,A+,3,elective
+115,H1,2026-10-30,haematology/oncology,A+,4,elective
+116,H1,2026-10-30,vascular surgery,O+,5,elective
+117,H1,2026-10-30,orthopaedic surgery,O+,3,elective
+118,H1,2026-10-30,cardiac surgery,O+,3,elective
+119,H1,2026-10-30,haematology/oncology,O+,2,elective
+120,H1,2026-10-30,obstetrics,A+,2,elective
+121,H2,2026-10-30,orthopaedic surgery,A+,2,elective
+122,H2,2026-10-30,vascular surgery,O+,4,elective
+123,H2,2026-10-30,vascular surgery,A+,5,elective
+124,H2,2026-10-30,haematology/oncology,A+,2,elective
+125,H2,2026-10-30,orthopaedic surgery,A+,2,elective
+126,H2,2026-10-30,vascular surgery,O-,4,elective
+127,H2,2026-10-30,cardiac surgery,AB+,6,elective
+128,H3,2026-10-30,obstetrics,B+,1,elective
+129,H3,2026-10-30,cardiac surgery,A+,4,elective
+130,H3,2026-10-30,cardiac surgery,AB+,2,elective
+131,H3,2026-10-30,haematology/oncology,A+,4,elective
+132,H3,2026-10-30,haematology/oncology,A-,4,elective
+133,H3,2026-10-30,vascular surgery,B+,2,elective
+134,H3,2026-10-30,vascular surgery,A+,3,elective
+135,H4,2026-10-30,cardiac surgery,A+,5,elective
+136,H4,2026-10-30,orthopaedic surgery,A+,2,elective
+137,H4,2026-10-30,haematology/oncology,A+,1,elective
+138,H4,2026-10-30,obstetrics,B+,2,elective
+139,H4,2026-10-30,vascular surgery,B+,5,elective
+140,H4,2026-10-30,haematology/oncology,O+,3,elective
+141,H1,2026-10-31,vascular surgery,O+,3,elective
+142,H2,2026-10-31,orthopaedic surgery,A+,1,elective
+143,H2,2026-10-31,haematology/oncology,O+,2,elective
+144,H3,2026-10-31,cardiac surgery,A-,5,elective
+145,H4,2026-10-31,haematology/oncology,O-,3,elective
+146,H4,2026-10-31,vascular surgery,AB+,3,elective
+147,H1,2026-11-01,vascular surgery,A+,5,elective
+148,H2,2026-11-01,orthopaedic surgery,O+,1,elective
+149,H2,2026-11-01,orthopaedic surgery,O+,1,elective
+150,H3,2026-11-01,vascular surgery,A+,3,elective
+151,H3,2026-11-01,vascular surgery,B+,3,elective
+152,H4,2026-11-01,orthopaedic surgery,O-,3,elective
+153,H1,2026-11-02,haematology/oncology,AB+,2,elective
+154,H1,2026-11-02,vascular surgery,A+,3,elective
+155,H1,2026-11-02,vascular surgery,B+,2,elective
+156,H1,2026-11-02,obstetrics,A+,1,elective
+157,H1,2026-11-02,cardiac surgery,O+,4,elective
+158,H2,2026-11-02,orthopaedic surgery,A+,2,elective
+159,H2,2026-11-02,haematology/oncology,O+,4,elective
+160,H2,2026-11-02,orthopaedic surgery,AB+,3,elective
+161,H2,2026-11-02,cardiac surgery,A+,3,elective
+162,H2,2026-11-02,haematology/oncology,A+,3,elective
+163,H2,2026-11-02,vascular surgery,A+,3,elective
+164,H2,2026-11-02,vascular surgery,O-,4,elective
+165,H3,2026-11-02,vascular surgery,O+,4,elective
+166,H3,2026-11-02,haematology/oncology,A+,2,elective
+167,H3,2026-11-02,orthopaedic surgery,A+,2,elective
+168,H3,2026-11-02,cardiac surgery,O+,2,elective
+169,H3,2026-11-02,haematology/oncology,A-,1,elective
+170,H3,2026-11-02,orthopaedic surgery,O+,3,elective
+171,H3,2026-11-02,obstetrics,A-,1,elective
+172,H4,2026-11-02,obstetrics,A+,1,elective
+173,H4,2026-11-02,haematology/oncology,A+,3,elective
+174,H4,2026-11-02,orthopaedic surgery,O+,1,elective
+175,H4,2026-11-02,vascular surgery,A-,5,elective
+176,H4,2026-11-02,vascular surgery,O+,2,elective
+177,H4,2026-11-02,cardiac surgery,O+,2,elective
+178,H4,2026-11-02,vascular surgery,A+,4,elective
+179,H1,2026-11-03,cardiac surgery,O+,5,elective
+180,H1,2026-11-03,haematology/oncology,O+,3,elective
+181,H1,2026-11-03,haematology/oncology,A-,2,elective
+182,H1,2026-11-03,cardiac surgery,O+,4,elective
+183,H1,2026-11-03,obstetrics,A+,1,elective
+184,H1,2026-11-03,vascular surgery,A-,4,elective
+185,H1,2026-11-03,vascular surgery,A+,4,elective
+186,H2,2026-11-03,obstetrics,O+,1,elective
+187,H2,2026-11-03,obstetrics,A+,1,elective
+188,H2,2026-11-03,cardiac surgery,O+,3,elective
+189,H2,2026-11-03,vascular surgery,A+,3,elective
+190,H3,2026-11-03,obstetrics,A+,1,elective
+191,H3,2026-11-03,obstetrics,A+,1,elective
+192,H3,2026-11-03,cardiac surgery,O+,3,elective
+193,H3,2026-11-03,cardiac surgery,A+,3,elective
+194,H3,2026-11-03,cardiac surgery,O+,3,elective
+195,H4,2026-11-03,cardiac surgery,A+,3,elective
+196,H4,2026-11-03,haematology/oncology,O+,4,elective
+197,H4,2026-11-03,haematology/oncology,A+,4,elective
+198,H4,2026-11-03,cardiac surgery,O+,2,elective
+199,H4,2026-11-03,haematology/oncology,A+,4,elective
+200,H4,2026-11-03,vascular surgery,B+,5,elective
+201,H4,2026-11-03,orthopaedic surgery,B+,2,elective
+202,H4,2026-11-03,haematology/oncology,O+,4,elective
+203,H1,2026-11-04,orthopaedic surgery,A+,3,elective
+204,H1,2026-11-04,orthopaedic surgery,O+,3,elective
+205,H1,2026-11-04,vascular surgery,A+,2,elective
+206,H1,2026-11-04,haematology/oncology,O+,1,elective
+207,H1,2026-11-04,vascular surgery,O+,2,elective
+208,H1,2026-11-04,haematology/oncology,O-,4,elective
+209,H1,2026-11-04,haematology/oncology,A-,4,elective
+210,H2,2026-11-04,obstetrics,A-,2,elective
+211,H2,2026-11-04,orthopaedic surgery,A+,3,elective
+212,H2,2026-11-04,vascular surgery,A+,2,elective
+213,H2,2026-11-04,haematology/oncology,A+,1,elective
+214,H2,2026-11-04,cardiac surgery,O-,5,elective
+215,H2,2026-11-04,obstetrics,A+,2,elective
+216,H2,2026-11-04,haematology/oncology,A+,4,elective
+217,H3,2026-11-04,haematology/oncology,B+,4,elective
+218,H3,2026-11-04,cardiac surgery,A+,4,elective
+219,H3,2026-11-04,obstetrics,A+,1,elective
+220,H3,2026-11-04,vascular surgery,O-,3,elective
+221,H3,2026-11-04,orthopaedic surgery,O+,1,elective
+222,H3,2026-11-04,orthopaedic surgery,O+,2,elective
+223,H4,2026-11-04,obstetrics,O+,1,elective
+224,H4,2026-11-04,orthopaedic surgery,A+,3,elective
+225,H4,2026-11-04,vascular surgery,O+,2,elective
+226,H4,2026-11-04,haematology/oncology,A+,2,elective
+227,H4,2026-11-04,cardiac surgery,B+,6,elective
+228,H4,2026-11-04,vascular surgery,O+,5,elective
+229,H4,2026-11-04,cardiac surgery,A-,4,elective
+230,H1,2026-11-05,obstetrics,A-,2,elective
+231,H1,2026-11-05,orthopaedic surgery,A+,2,elective
+232,H1,2026-11-05,vascular surgery,B+,3,elective
+233,H1,2026-11-05,vascular surgery,A+,5,elective
+234,H2,2026-11-05,vascular surgery,A+,5,elective
+235,H2,2026-11-05,orthopaedic surgery,A+,1,elective
+236,H2,2026-11-05,cardiac surgery,A+,6,elective
+237,H2,2026-11-05,obstetrics,A+,1,elective
+238,H3,2026-11-05,orthopaedic surgery,O-,3,elective
+239,H3,2026-11-05,obstetrics,A+,1,elective
+240,H3,2026-11-05,vascular surgery,A+,2,elective
+241,H3,2026-11-05,vascular surgery,A-,2,elective
+242,H3,2026-11-05,haematology/oncology,O+,4,elective
+243,H3,2026-11-05,vascular surgery,A+,4,elective
+244,H4,2026-11-05,haematology/oncology,A-,1,elective
+245,H4,2026-11-05,orthopaedic surgery,A+,3,elective
+246,H4,2026-11-05,obstetrics,A-,2,elective
+247,H4,2026-11-05,haematology/oncology,A+,3,elective
