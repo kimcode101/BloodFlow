@@ -1,12 +1,132 @@
 :root {
+  color-scheme: light;
+  --bg: white;
+  --surface: white;
+  --text: #142d49;
+  --heading: #0e1929;
+  --muted: #637187;
+  --faint: #718095;
+  --eyebrow: #8a6470;
+  --border: #d6e1eb;
+  --line: #dce5ee;
+  --line-soft: #eef2f6;
+  --hover: #eef4f8;
+  --nav-bg: #152637;
+  --nav-hover: #284158;
+  --red-text: #a60f31;
+  --teal: #008c7b;
+  --primary: #ac1033;
+  --primary-hover: #8b0c29;
+  --blood-bg: #f8edf0;
+  --aside-bg: #edf4fa;
+  --aside-border: #d6e3ee;
+  --mode-text: #447167;
+  --mode-bg: #e3eeef;
+  --mode-border: #d3e5e8;
+  --bubble-bg: #ffffffc9;
+  --bubble-border: #d3dfec;
+  --bubble-user: #dfeaf3;
+  --input-border: #cfdfec;
+  --scrim: #0f203675;
+  --shadow: #15263744;
+  --error-bg: #fff0f1;
+  --error-border: #e9bdc8;
+  --test-bg: #f4f7fa;
+  --graph-dots: #d4dfe8;
+  --graph-edge: #72beb4;
+  --graph-bank: #ad1034;
+  --graph-hospital: #153652;
+}
+/* Dark palette: follows the OS unless the user picked a theme explicitly. */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --bg: #0f1923;
+    --surface: #16222e;
+    --text: #d5e1ec;
+    --heading: #f1f5f9;
+    --muted: #9aabbe;
+    --faint: #8193a8;
+    --eyebrow: #d39aab;
+    --border: #2b3c4e;
+    --line: #263647;
+    --line-soft: #1d2b39;
+    --hover: #1f2e3d;
+    --nav-bg: #0a121b;
+    --nav-hover: #1d2f42;
+    --red-text: #f27d95;
+    --teal: #3fcbb6;
+    --primary: #c01a3f;
+    --primary-hover: #d62a50;
+    --blood-bg: #3b1721;
+    --aside-bg: #121e2a;
+    --aside-border: #263647;
+    --mode-text: #7fd0c2;
+    --mode-bg: #15302f;
+    --mode-border: #23443f;
+    --bubble-bg: #1a2836;
+    --bubble-border: #2b3c4e;
+    --bubble-user: #213448;
+    --input-border: #2b3c4e;
+    --scrim: #000000a6;
+    --shadow: #00000080;
+    --error-bg: #3b1721;
+    --error-border: #6d2a3b;
+    --test-bg: #131f2b;
+    --graph-dots: #24384c;
+    --graph-edge: #3fb3a3;
+    --graph-bank: #f05a7a;
+    --graph-hospital: #8fb8e0;
+  }
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --bg: #0f1923;
+  --surface: #16222e;
+  --text: #d5e1ec;
+  --heading: #f1f5f9;
+  --muted: #9aabbe;
+  --faint: #8193a8;
+  --eyebrow: #d39aab;
+  --border: #2b3c4e;
+  --line: #263647;
+  --line-soft: #1d2b39;
+  --hover: #1f2e3d;
+  --nav-bg: #0a121b;
+  --nav-hover: #1d2f42;
+  --red-text: #f27d95;
+  --teal: #3fcbb6;
+  --primary: #c01a3f;
+  --primary-hover: #d62a50;
+  --blood-bg: #3b1721;
+  --aside-bg: #121e2a;
+  --aside-border: #263647;
+  --mode-text: #7fd0c2;
+  --mode-bg: #15302f;
+  --mode-border: #23443f;
+  --bubble-bg: #1a2836;
+  --bubble-border: #2b3c4e;
+  --bubble-user: #213448;
+  --input-border: #2b3c4e;
+  --scrim: #000000a6;
+  --shadow: #00000080;
+  --error-bg: #3b1721;
+  --error-border: #6d2a3b;
+  --test-bg: #131f2b;
+  --graph-dots: #24384c;
+  --graph-edge: #3fb3a3;
+  --graph-bank: #f05a7a;
+  --graph-hospital: #8fb8e0;
+}
+:root {
   font-family:
     Inter,
     -apple-system,
     BlinkMacSystemFont,
     "Segoe UI",
     sans-serif;
-  color: #142d49;
-  background: white;
+  color: var(--text);
+  background: var(--bg);
   font-size: 14px;
 }
 * {
@@ -26,14 +146,14 @@ summary {
   cursor: pointer;
 }
 button {
-  border: 1px solid #d6e1eb;
-  background: white;
+  border: 1px solid var(--border);
+  background: var(--surface);
   color: inherit;
   border-radius: 7px;
   padding: 12px 16px;
 }
 button:hover {
-  background: #eef4f8;
+  background: var(--hover);
 }
 button:disabled {
   opacity: 0.5;
@@ -64,7 +184,7 @@ h2 {
   min-height: 100vh;
 }
 nav {
-  background: #152637;
+  background: var(--nav-bg);
   color: white;
   display: flex;
   align-items: center;
@@ -94,7 +214,7 @@ nav small {
 }
 nav a:hover,
 nav button:hover {
-  background: #284158;
+  background: var(--nav-hover);
   border-radius: 6px;
 }
 nav .brand {
@@ -112,6 +232,9 @@ nav .brand {
 nav .nav-bottom {
   margin-top: auto;
 }
+body {
+  background: var(--bg);
+}
 main {
   padding: 28px 30px;
   min-width: 0;
@@ -127,12 +250,12 @@ header strong {
   letter-spacing: -1.5px;
 }
 header strong span {
-  color: #a60f31;
+  color: var(--red-text);
 }
 header p,
 .subtitle,
 aside > p {
-  color: #637187;
+  color: var(--muted);
 }
 .settings {
   border: 0;
@@ -142,20 +265,20 @@ aside > p {
 .eyebrow {
   font-size: 10px;
   letter-spacing: 2px;
-  color: #8a6470;
+  color: var(--eyebrow);
   font-weight: 700;
 }
 h1 {
   font-size: 32px;
   letter-spacing: -1.25px;
-  color: #0e1929;
+  color: var(--heading);
   margin: 7px 0;
 }
 .subtitle {
   font-size: 16px;
 }
 .metrics {
-  border-block: 1px solid #dce5ee;
+  border-block: 1px solid var(--line);
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   margin: 24px 0 18px;
@@ -163,7 +286,7 @@ h1 {
 }
 .metrics > div {
   padding: 0 20px;
-  border-right: 1px solid #e2e8ef;
+  border-right: 1px solid var(--line);
 }
 .metrics > div:first-child {
   padding-left: 0;
@@ -173,7 +296,7 @@ h1 {
 }
 .metrics span {
   font-size: 12px;
-  color: #526074;
+  color: var(--muted);
   display: block;
 }
 .metrics strong {
@@ -183,10 +306,10 @@ h1 {
   letter-spacing: -1px;
 }
 .teal {
-  color: #008c7b;
+  color: var(--teal);
 }
 .red {
-  color: #a80f32;
+  color: var(--red-text);
 }
 .controls {
   display: grid;
@@ -196,24 +319,24 @@ h1 {
 }
 select {
   width: 100%;
-  border: 1px solid #d6e1eb;
+  border: 1px solid var(--border);
   border-radius: 6px;
-  background: white;
-  color: #152637;
+  background: var(--surface);
+  color: var(--text);
   padding: 12px;
   min-width: 0;
 }
 .primary {
-  background: #ac1033;
+  background: var(--primary);
   color: white;
-  border-color: #ac1033;
+  border-color: var(--primary);
   font-weight: 600;
 }
 .primary:hover {
-  background: #8b0c29;
+  background: var(--primary-hover);
 }
 .panel {
-  border: 1px solid #dce5ee;
+  border: 1px solid var(--line);
   border-radius: 9px;
   padding: 17px;
   margin-bottom: 16px;
@@ -226,13 +349,13 @@ select {
 }
 .status {
   font-size: 11px;
-  color: #078b7b;
+  color: var(--teal);
   font-weight: 600;
 }
 .caption,
 .heading small {
   font-size: 11px;
-  color: #718095;
+  color: var(--faint);
 }
 .panel .caption {
   margin-top: 8px;
@@ -243,10 +366,11 @@ select {
   max-height: 345px;
   margin-top: 5px;
   font-size: 15px;
+  fill: var(--text);
 }
 .node {
   font-size: 12px;
-  fill: #61738a;
+  fill: var(--faint);
 }
 .centered {
   text-align: center;
@@ -264,8 +388,8 @@ table {
   white-space: nowrap;
 }
 th {
-  background: #eef2f6;
-  color: #53647d;
+  background: var(--line-soft);
+  color: var(--muted);
   padding: 11px 10px;
   font-size: 11px;
   position: sticky;
@@ -273,7 +397,7 @@ th {
 }
 td {
   padding: 10px;
-  border-bottom: 1px solid #eef2f6;
+  border-bottom: 1px solid var(--line-soft);
 }
 td small {
   white-space: normal;
@@ -283,19 +407,19 @@ td small {
   line-height: 1.5;
 }
 .blood {
-  background: #f8edf0;
-  color: #9e1738;
+  background: var(--blood-bg);
+  color: var(--red-text);
   padding: 3px 7px;
   border-radius: 4px;
   font-weight: 600;
 }
 .empty {
   padding: 25px 0;
-  color: #8190a2;
+  color: var(--faint);
 }
 aside {
-  background: #edf4fa;
-  border-left: 1px solid #d6e3ee;
+  background: var(--aside-bg);
+  border-left: 1px solid var(--aside-border);
   padding: 38px 22px 22px;
   height: 100vh;
   position: sticky;
@@ -314,9 +438,9 @@ aside > p {
 .mode {
   align-self: flex-start;
   font-size: 11px;
-  color: #447167;
-  background: #e3eeef;
-  border: 1px solid #d3e5e8;
+  color: var(--mode-text);
+  background: var(--mode-bg);
+  border: 1px solid var(--mode-border);
   border-radius: 30px;
   padding: 6px 9px;
   margin: 14px 0 20px;
@@ -327,8 +451,8 @@ aside > p {
   padding: 0 2px 16px;
 }
 .bubble {
-  background: #ffffffc9;
-  border: 1px solid #d3dfec;
+  background: var(--bubble-bg);
+  border: 1px solid var(--bubble-border);
   border-radius: 9px;
   padding: 16px;
   font-size: 13px;
@@ -342,11 +466,11 @@ aside > p {
   gap: 12px;
 }
 .intro span {
-  color: #ab1033;
+  color: var(--red-text);
   font-size: 22px;
 }
 .bubble.user {
-  background: #dfeaf3;
+  background: var(--bubble-user);
   margin-left: 24px;
 }
 .bubble details {
@@ -380,8 +504,8 @@ pre {
 }
 aside form {
   display: flex;
-  background: white;
-  border: 1px solid #cfdfec;
+  background: var(--surface);
+  border: 1px solid var(--input-border);
   border-radius: 9px;
   padding: 12px;
   gap: 8px;
@@ -392,7 +516,7 @@ textarea {
   min-width: 0;
   width: 100%;
   height: 55px;
-  color: #18334d;
+  color: var(--text);
   font-size: 13px;
   padding: 3px;
   background: none;
@@ -404,20 +528,20 @@ form button {
 }
 .footnote {
   font-size: 11px;
-  color: #73859c;
+  color: var(--faint);
   margin-top: 15px;
 }
 .scrim {
   position: fixed;
   inset: 0;
-  background: #0f203675;
+  background: var(--scrim);
   z-index: 10;
   display: grid;
   place-items: center;
   padding: 20px;
 }
 .modal {
-  background: white;
+  background: var(--surface);
   border-radius: 12px;
   max-width: 640px;
   width: 100%;
@@ -425,7 +549,7 @@ form button {
   position: relative;
   max-height: 90vh;
   overflow: auto;
-  box-shadow: 0 20px 100px #15263744;
+  box-shadow: 0 20px 100px var(--shadow);
 }
 .modal h2 {
   font-size: 28px;
@@ -433,7 +557,7 @@ form button {
 }
 .modal p {
   margin: 14px 0;
-  color: #5f6f83;
+  color: var(--muted);
 }
 .close {
   position: absolute;
@@ -449,10 +573,10 @@ form button {
   gap: 14px;
   font-size: 13px;
   padding: 20px 0;
-  border-block: 1px solid #e2e8ef;
+  border-block: 1px solid var(--line);
 }
 .modal dt {
-  color: #708096;
+  color: var(--muted);
 }
 .modal dd {
   margin: 0;
@@ -463,9 +587,9 @@ form button {
 }
 .error {
   padding: 15px;
-  background: #fff0f1;
-  color: #9a1532;
-  border: 1px solid #e9bdc8;
+  background: var(--error-bg);
+  color: var(--red-text);
+  border: 1px solid var(--error-border);
 }
 html {
   scroll-behavior: smooth;
@@ -529,7 +653,7 @@ html {
     grid-column: 2;
     height: 650px;
     position: static;
-    border-top: 1px solid #d6e3ee;
+    border-top: 1px solid var(--aside-border);
   }
   .metrics {
     gap: 12px;
@@ -580,8 +704,8 @@ html {
 .test-inputs {
   margin-top: 22px;
   padding: 16px;
-  background: #f4f7fa;
-  border: 1px solid #d6e1eb;
+  background: var(--test-bg);
+  border: 1px solid var(--border);
   border-radius: 8px;
 }
 .test-actions {
@@ -600,11 +724,11 @@ html {
 .simulation-result {
   margin-top: 15px;
   padding-top: 14px;
-  border-top: 1px solid #d6e1eb;
+  border-top: 1px solid var(--border);
   font-size: 12px;
 }
 .simulation-result > b {
-  color: #a60f31;
+  color: var(--red-text);
 }
 .simulation-result li {
   margin: 6px 0;

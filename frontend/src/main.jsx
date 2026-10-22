@@ -1,7 +1,39 @@
 import React, { useState, useEffect, useRef } from "react";
 import { createRoot } from "react-dom/client";
 import "./style.css";
-import { Home, Network, Settings, List, Send } from "lucide-react";
+import { Home, Network, Settings, List, Send, Sun, Moon } from "lucide-react";
+
+const THEME_KEY = "bloodflow-theme";
+const darkQuery = window.matchMedia("(prefers-color-scheme: dark)");
+function useTheme() {
+  // null = follow the OS; "light"/"dark" = explicit choice, remembered locally.
+  let [chosen, setChosen] = useState(() => {
+      try {
+        return localStorage.getItem(THEME_KEY);
+      } catch {
+        return null;
+      }
+    }),
+    [systemDark, setSystemDark] = useState(darkQuery.matches);
+  useEffect(() => {
+    let onChange = (e) => setSystemDark(e.matches);
+    darkQuery.addEventListener("change", onChange);
+    return () => darkQuery.removeEventListener("change", onChange);
+  }, []);
+  useEffect(() => {
+    if (chosen) document.documentElement.dataset.theme = chosen;
+    else delete document.documentElement.dataset.theme;
+  }, [chosen]);
+  let theme = chosen || (systemDark ? "dark" : "light");
+  function toggle() {
+    let next = theme === "dark" ? "light" : "dark";
+    setChosen(next);
+    try {
+      localStorage.setItem(THEME_KEY, next);
+    } catch {}
+  }
+  return [theme, toggle];
+}
 const names = {
     B1: "Saint-Antoine",
     B2: "Cabanel",
@@ -57,7 +89,7 @@ function Graph({ plan, group }) {
             height="23"
             patternUnits="userSpaceOnUse"
           >
-            <circle cx="2" cy="2" r="1" fill="#d4dfe8" />
+            <circle cx="2" cy="2" r="1" style={{ fill: "var(--graph-dots)" }} />
           </pattern>
         </defs>
         <rect width="750" height="390" fill="url(#dots)" />
@@ -71,7 +103,7 @@ function Graph({ plan, group }) {
                 key={i}
                 d={`M${a[0] + 23} ${a[1]} C 320 ${a[1]},320 ${b[1]},${b[0] - 23} ${b[1]}`}
                 fill="none"
-                stroke="#72beb4"
+                style={{ stroke: "var(--graph-edge)" }}
                 strokeWidth={Math.min(6, 1 + e.units / 15)}
               >
                 <title>
@@ -86,8 +118,11 @@ function Graph({ plan, group }) {
               cx={x}
               cy={y}
               r="23"
-              fill="white"
-              stroke={id[0] === "B" ? "#ad1034" : "#153652"}
+              style={{
+                fill: "var(--surface)",
+                stroke:
+                  id[0] === "B" ? "var(--graph-bank)" : "var(--graph-hospital)",
+              }}
               strokeWidth="2"
             />
             <text
@@ -95,7 +130,10 @@ function Graph({ plan, group }) {
               y={y + 9}
               textAnchor="middle"
               fontSize="29"
-              fill={id[0] === "B" ? "#ad1034" : "#153652"}
+              style={{
+                fill:
+                  id[0] === "B" ? "var(--graph-bank)" : "var(--graph-hospital)",
+              }}
             >
               {id[0] === "B" ? "♦" : "+"}
             </text>
@@ -408,6 +446,7 @@ function App() {
     [error, setError] = useState(""),
     [modal, setModal] = useState(null),
     [busy, setBusy] = useState(false);
+  let [theme, toggleTheme] = useTheme();
   useEffect(() => {
     let active = true;
     setData(null);
@@ -483,9 +522,13 @@ function App() {
         </a>
         <button
           className="nav-bottom"
-          disabled={!data}
-          onClick={() => setModal("settings")}
+          onClick={toggleTheme}
+          aria-label={`Switch to ${theme === "dark" ? "light" : "dark"} mode`}
         >
+          {theme === "dark" ? <Sun size={22} /> : <Moon size={22} />}
+          <small>{theme === "dark" ? "Light" : "Dark"}</small>
+        </button>
+        <button disabled={!data} onClick={() => setModal("settings")}>
           <Settings size={22} />
           <small>Settings</small>
         </button>
